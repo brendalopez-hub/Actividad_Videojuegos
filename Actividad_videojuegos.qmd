@@ -17,7 +17,7 @@ library(forcats)
 ## Cargar base de datos 
 
 ```{r}
-videojuegos <-vgsales
+videojuegos <-read_csv("C:/Users/lopez/Documents/Estadística R/Actividad_final/vgsales.csv")
 head(videojuegos)
 colnames(videojuegos)
 nrow(videojuegos)
